@@ -12,16 +12,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from llm_client import get_model, make_client
+from prompts import SYSTEM_PROMPT, user_prompt
 from schema import CITIES, Application
 
 N = 50
 PER_CITY = N // len(CITIES)
 WORKERS = int(os.environ.get("GENERATOR_WORKERS", "6"))
-
-SYSTEM_PROMPT = """Сгенерируй одну заявку на курс ДПО. Ответ — JSON по схеме.
-Город в address.city должен совпадать с городом из запроса пользователя.
-Согласуй age, graduation_year (выпуск не раньше чем через 22 года после рождения), years_of_experience.
-speciality и desired_course только из списка в схеме."""
 
 SPECIALITIES = [
     "учитель начальных классов",
@@ -43,11 +39,6 @@ def get_client():
     if not hasattr(_thread_local, "client"):
         _thread_local.client = make_client()
     return _thread_local.client
-
-
-def user_prompt(city: str, speciality: str | None) -> str:
-    spec = f"Специальность: {speciality}." if speciality else ""
-    return f"Город: {city}. {spec} Одна заявка, разные ФИО."
 
 
 def seeds(count: int = N) -> list[tuple[str, str | None]]:
