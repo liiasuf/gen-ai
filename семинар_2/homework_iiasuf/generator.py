@@ -1,8 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import json
-import os
 import random
 import threading
 from collections import Counter
@@ -17,7 +15,7 @@ from schema import CITIES, Application
 
 N = 50
 PER_CITY = N // len(CITIES)
-WORKERS = int(os.environ.get("GENERATOR_WORKERS", "6"))
+WORKERS = 6
 
 SPECIALITIES = [
     "учитель начальных классов",
@@ -111,7 +109,7 @@ def main() -> None:
     failed = 0
     done: dict[int, Application] = {}
 
-    print(f"{model}, n={len(plan)}, workers={args.w}\n")
+    print(f"модель {model}, заявок {len(plan)}, потоков {args.w}\n")
 
     def job(item: tuple[int, str, str | None]):
         idx, city, spec = item
