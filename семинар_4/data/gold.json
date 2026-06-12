@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "прямой",
+    "question": "How many questions are there in total in the IELTS Academic Listening section?",
+    "gold_sources": ["doc_2"]
+  },
+  {
+    "id": 2,
+    "type": "прямой",
+    "question": "What is the minimum word count required for IELTS Academic Writing Task 2?",
+    "gold_sources": ["doc_5"]
+  },
+  {
+    "id": 3,
+    "type": "точный артикул",
+    "question": "In Reading True/False/Not Given questions, what does the answer 'NOT GIVEN' mean?",
+    "gold_sources": ["doc_3"]
+  },
+  {
+    "id": 4,
+    "type": "синоним",
+    "question": "What overall score do most universities require for admission to an undergraduate program?",
+    "gold_sources": ["doc_7"]
+  },
+  {
+    "id": 5,
+    "type": "перефраз",
+    "question": "How can a candidate avoid repeating the same words over and over in their essay?",
+    "gold_sources": ["doc_8"]
+  },
+  {
+    "id": 6,
+    "type": "multi-hop",
+    "question": "How long does the entire IELTS Academic test take from Listening through Speaking, and how many total questions are there across Listening and Reading combined?",
+    "gold_sources": ["doc_1", "doc_2", "doc_3"]
+  },
+  {
+    "id": 7,
+    "type": "multi-hop",
+    "question": "Which assessment criteria are shared between the Speaking test and Writing Task 2?",
+    "gold_sources": ["doc_5", "doc_6"]
+  },
+  {
+    "id": 8,
+    "type": "прямой",
+    "question": "How many parts does the Speaking test have, and how long does the whole test last?",
+    "gold_sources": ["doc_6"]
+  },
+  {
+    "id": 9,
+    "type": "прямой",
+    "question": "What types of visual information can appear in Writing Task 1?",
+    "gold_sources": ["doc_4"]
+  },
+  {
+    "id": 10,
+    "type": "синоним",
+    "question": "What identification do candidates need to bring with them on exam day?",
+    "gold_sources": ["doc_9"]
+  },
+  {
+    "id": 11,
+    "type": "прямой",
+    "question": "How is the Overall Band Score calculated from the four section scores?",
+    "gold_sources": ["doc_7"]
+  },
+  {
+    "id": 12,
+    "type": "multi-hop / перефраз",
+    "question": "If someone's four section scores average to 6.75, what overall score would they get, and which four skill sections are averaged to produce that number?",
+    "gold_sources": ["doc_7", "doc_1"]
+  }
+]

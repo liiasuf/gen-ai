@@ -1,0 +1,602 @@
+{
+  "fixed": {
+    "num_chunks": 28,
+    "avg_chunk_len": 1491.75,
+    "hit_rate@5": 1.0,
+    "all_sources_hit_rate@5": 0.9166666666666666,
+    "per_question": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "question": "How many questions are there in total in the IELTS Academic Listening section?",
+        "gold_sources": [
+          "doc_2"
+        ],
+        "retrieved_docs": [
+          "doc_2",
+          "doc_1",
+          "doc_1",
+          "doc_8",
+          "doc_3"
+        ],
+        "retrieved_chunks": [
+          "doc_2_c0",
+          "doc_1_c0",
+          "doc_1_c1",
+          "doc_8_c0",
+          "doc_3_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 2,
+        "type": "прямой",
+        "question": "What is the minimum word count required for IELTS Academic Writing Task 2?",
+        "gold_sources": [
+          "doc_5"
+        ],
+        "retrieved_docs": [
+          "doc_4",
+          "doc_5",
+          "doc_1",
+          "doc_7",
+          "doc_8"
+        ],
+        "retrieved_chunks": [
+          "doc_4_c0",
+          "doc_5_c0",
+          "doc_1_c0",
+          "doc_7_c1",
+          "doc_8_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "question": "In Reading True/False/Not Given questions, what does the answer 'NOT GIVEN' mean?",
+        "gold_sources": [
+          "doc_3"
+        ],
+        "retrieved_docs": [
+          "doc_3",
+          "doc_10",
+          "doc_10",
+          "doc_1",
+          "doc_3"
+        ],
+        "retrieved_chunks": [
+          "doc_3_c0",
+          "doc_10_c0",
+          "doc_10_c2",
+          "doc_1_c0",
+          "doc_3_c1"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 4,
+        "type": "синоним",
+        "question": "What overall score do most universities require for admission to an undergraduate program?",
+        "gold_sources": [
+          "doc_7"
+        ],
+        "retrieved_docs": [
+          "doc_7",
+          "doc_1",
+          "doc_3",
+          "doc_3",
+          "doc_7"
+        ],
+        "retrieved_chunks": [
+          "doc_7_c1",
+          "doc_1_c1",
+          "doc_3_c2",
+          "doc_3_c1",
+          "doc_7_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 5,
+        "type": "перефраз",
+        "question": "How can a candidate avoid repeating the same words over and over in their essay?",
+        "gold_sources": [
+          "doc_8"
+        ],
+        "retrieved_docs": [
+          "doc_5",
+          "doc_8",
+          "doc_5",
+          "doc_2",
+          "doc_6"
+        ],
+        "retrieved_chunks": [
+          "doc_5_c0",
+          "doc_8_c0",
+          "doc_5_c1",
+          "doc_2_c1",
+          "doc_6_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 6,
+        "type": "multi-hop",
+        "question": "How long does the entire IELTS Academic test take from Listening through Speaking, and how many total questions are there across Listening and Reading combined?",
+        "gold_sources": [
+          "doc_1",
+          "doc_2",
+          "doc_3"
+        ],
+        "retrieved_docs": [
+          "doc_1",
+          "doc_2",
+          "doc_6",
+          "doc_7",
+          "doc_9"
+        ],
+        "retrieved_chunks": [
+          "doc_1_c0",
+          "doc_2_c0",
+          "doc_6_c0",
+          "doc_7_c0",
+          "doc_9_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 0
+      },
+      {
+        "id": 7,
+        "type": "multi-hop",
+        "question": "Which assessment criteria are shared between the Speaking test and Writing Task 2?",
+        "gold_sources": [
+          "doc_5",
+          "doc_6"
+        ],
+        "retrieved_docs": [
+          "doc_5",
+          "doc_4",
+          "doc_6",
+          "doc_1",
+          "doc_5"
+        ],
+        "retrieved_chunks": [
+          "doc_5_c0",
+          "doc_4_c0",
+          "doc_6_c0",
+          "doc_1_c0",
+          "doc_5_c1"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 8,
+        "type": "прямой",
+        "question": "How many parts does the Speaking test have, and how long does the whole test last?",
+        "gold_sources": [
+          "doc_6"
+        ],
+        "retrieved_docs": [
+          "doc_6",
+          "doc_9",
+          "doc_1",
+          "doc_7",
+          "doc_9"
+        ],
+        "retrieved_chunks": [
+          "doc_6_c0",
+          "doc_9_c0",
+          "doc_1_c0",
+          "doc_7_c2",
+          "doc_9_c1"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 9,
+        "type": "прямой",
+        "question": "What types of visual information can appear in Writing Task 1?",
+        "gold_sources": [
+          "doc_4"
+        ],
+        "retrieved_docs": [
+          "doc_4",
+          "doc_5",
+          "doc_4",
+          "doc_3",
+          "doc_8"
+        ],
+        "retrieved_chunks": [
+          "doc_4_c0",
+          "doc_5_c0",
+          "doc_4_c1",
+          "doc_3_c0",
+          "doc_8_c1"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 10,
+        "type": "синоним",
+        "question": "What identification do candidates need to bring with them on exam day?",
+        "gold_sources": [
+          "doc_9"
+        ],
+        "retrieved_docs": [
+          "doc_9",
+          "doc_9",
+          "doc_3",
+          "doc_1",
+          "doc_8"
+        ],
+        "retrieved_chunks": [
+          "doc_9_c0",
+          "doc_9_c1",
+          "doc_3_c0",
+          "doc_1_c0",
+          "doc_8_c1"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 11,
+        "type": "прямой",
+        "question": "How is the Overall Band Score calculated from the four section scores?",
+        "gold_sources": [
+          "doc_7"
+        ],
+        "retrieved_docs": [
+          "doc_1",
+          "doc_7",
+          "doc_7",
+          "doc_3",
+          "doc_2"
+        ],
+        "retrieved_chunks": [
+          "doc_1_c1",
+          "doc_7_c1",
+          "doc_7_c0",
+          "doc_3_c2",
+          "doc_2_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 12,
+        "type": "multi-hop / перефраз",
+        "question": "If someone's four section scores average to 6.75, what overall score would they get, and which four skill sections are averaged to produce that number?",
+        "gold_sources": [
+          "doc_7",
+          "doc_1"
+        ],
+        "retrieved_docs": [
+          "doc_7",
+          "doc_1",
+          "doc_7",
+          "doc_2",
+          "doc_1"
+        ],
+        "retrieved_chunks": [
+          "doc_7_c1",
+          "doc_1_c1",
+          "doc_7_c0",
+          "doc_2_c0",
+          "doc_1_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      }
+    ]
+  },
+  "recursive": {
+    "num_chunks": 151,
+    "avg_chunk_len": 283.7880794701987,
+    "hit_rate@5": 1.0,
+    "all_sources_hit_rate@5": 0.8333333333333334,
+    "per_question": [
+      {
+        "id": 1,
+        "type": "прямой",
+        "question": "How many questions are there in total in the IELTS Academic Listening section?",
+        "gold_sources": [
+          "doc_2"
+        ],
+        "retrieved_docs": [
+          "doc_2",
+          "doc_6",
+          "doc_10",
+          "doc_3",
+          "doc_2"
+        ],
+        "retrieved_chunks": [
+          "doc_2_c0",
+          "doc_6_c0",
+          "doc_10_c0",
+          "doc_3_c0",
+          "doc_2_c1"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 2,
+        "type": "прямой",
+        "question": "What is the minimum word count required for IELTS Academic Writing Task 2?",
+        "gold_sources": [
+          "doc_5"
+        ],
+        "retrieved_docs": [
+          "doc_5",
+          "doc_5",
+          "doc_4",
+          "doc_4",
+          "doc_2"
+        ],
+        "retrieved_chunks": [
+          "doc_5_c0",
+          "doc_5_c1",
+          "doc_4_c0",
+          "doc_4_c4",
+          "doc_2_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 3,
+        "type": "точный артикул",
+        "question": "In Reading True/False/Not Given questions, what does the answer 'NOT GIVEN' mean?",
+        "gold_sources": [
+          "doc_3"
+        ],
+        "retrieved_docs": [
+          "doc_10",
+          "doc_3",
+          "doc_10",
+          "doc_3",
+          "doc_3"
+        ],
+        "retrieved_chunks": [
+          "doc_10_c2",
+          "doc_3_c4",
+          "doc_10_c4",
+          "doc_3_c6",
+          "doc_3_c3"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 4,
+        "type": "синоним",
+        "question": "What overall score do most universities require for admission to an undergraduate program?",
+        "gold_sources": [
+          "doc_7"
+        ],
+        "retrieved_docs": [
+          "doc_7",
+          "doc_1",
+          "doc_7",
+          "doc_7",
+          "doc_7"
+        ],
+        "retrieved_chunks": [
+          "doc_7_c8",
+          "doc_1_c10",
+          "doc_7_c7",
+          "doc_7_c10",
+          "doc_7_c12"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 5,
+        "type": "перефраз",
+        "question": "How can a candidate avoid repeating the same words over and over in their essay?",
+        "gold_sources": [
+          "doc_8"
+        ],
+        "retrieved_docs": [
+          "doc_8",
+          "doc_2",
+          "doc_5",
+          "doc_5",
+          "doc_3"
+        ],
+        "retrieved_chunks": [
+          "doc_8_c4",
+          "doc_2_c10",
+          "doc_5_c4",
+          "doc_5_c6",
+          "doc_3_c12"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 6,
+        "type": "multi-hop",
+        "question": "How long does the entire IELTS Academic test take from Listening through Speaking, and how many total questions are there across Listening and Reading combined?",
+        "gold_sources": [
+          "doc_1",
+          "doc_2",
+          "doc_3"
+        ],
+        "retrieved_docs": [
+          "doc_1",
+          "doc_1",
+          "doc_2",
+          "doc_9",
+          "doc_6"
+        ],
+        "retrieved_chunks": [
+          "doc_1_c5",
+          "doc_1_c2",
+          "doc_2_c0",
+          "doc_9_c0",
+          "doc_6_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 0
+      },
+      {
+        "id": 7,
+        "type": "multi-hop",
+        "question": "Which assessment criteria are shared between the Speaking test and Writing Task 2?",
+        "gold_sources": [
+          "doc_5",
+          "doc_6"
+        ],
+        "retrieved_docs": [
+          "doc_7",
+          "doc_5",
+          "doc_8",
+          "doc_4",
+          "doc_5"
+        ],
+        "retrieved_chunks": [
+          "doc_7_c2",
+          "doc_5_c0",
+          "doc_8_c0",
+          "doc_4_c0",
+          "doc_5_c6"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 0
+      },
+      {
+        "id": 8,
+        "type": "прямой",
+        "question": "How many parts does the Speaking test have, and how long does the whole test last?",
+        "gold_sources": [
+          "doc_6"
+        ],
+        "retrieved_docs": [
+          "doc_6",
+          "doc_6",
+          "doc_1",
+          "doc_6",
+          "doc_6"
+        ],
+        "retrieved_chunks": [
+          "doc_6_c13",
+          "doc_6_c1",
+          "doc_1_c2",
+          "doc_6_c3",
+          "doc_6_c2"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 9,
+        "type": "прямой",
+        "question": "What types of visual information can appear in Writing Task 1?",
+        "gold_sources": [
+          "doc_4"
+        ],
+        "retrieved_docs": [
+          "doc_4",
+          "doc_5",
+          "doc_4",
+          "doc_4",
+          "doc_3"
+        ],
+        "retrieved_chunks": [
+          "doc_4_c1",
+          "doc_5_c0",
+          "doc_4_c0",
+          "doc_4_c13",
+          "doc_3_c2"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 10,
+        "type": "синоним",
+        "question": "What identification do candidates need to bring with them on exam day?",
+        "gold_sources": [
+          "doc_9"
+        ],
+        "retrieved_docs": [
+          "doc_9",
+          "doc_9",
+          "doc_3",
+          "doc_9",
+          "doc_9"
+        ],
+        "retrieved_chunks": [
+          "doc_9_c2",
+          "doc_9_c3",
+          "doc_3_c1",
+          "doc_9_c13",
+          "doc_9_c0"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 11,
+        "type": "прямой",
+        "question": "How is the Overall Band Score calculated from the four section scores?",
+        "gold_sources": [
+          "doc_7"
+        ],
+        "retrieved_docs": [
+          "doc_7",
+          "doc_1",
+          "doc_1",
+          "doc_1",
+          "doc_7"
+        ],
+        "retrieved_chunks": [
+          "doc_7_c3",
+          "doc_1_c9",
+          "doc_1_c8",
+          "doc_1_c10",
+          "doc_7_c10"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      },
+      {
+        "id": 12,
+        "type": "multi-hop / перефраз",
+        "question": "If someone's four section scores average to 6.75, what overall score would they get, and which four skill sections are averaged to produce that number?",
+        "gold_sources": [
+          "doc_7",
+          "doc_1"
+        ],
+        "retrieved_docs": [
+          "doc_7",
+          "doc_1",
+          "doc_7",
+          "doc_7",
+          "doc_7"
+        ],
+        "retrieved_chunks": [
+          "doc_7_c4",
+          "doc_1_c8",
+          "doc_7_c10",
+          "doc_7_c3",
+          "doc_7_c11"
+        ],
+        "hit@5": 1,
+        "all_sources_hit@5": 1
+      }
+    ]
+  }
+}

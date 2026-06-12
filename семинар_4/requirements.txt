@@ -1,0 +1,10 @@
+# Исходно предполагался sentence-transformers (см. requirements.txt семинара),
+# но в данной песочнице его установка требует ~430MB torch, что не уложилось
+# в лимит времени установки. Ретривер реализован на TF-IDF (scikit-learn) —
+# см. пояснение в report.md, раздел 3.
+scikit-learn>=1.7
+numpy>=2.2
+
+# Если запускать в среде с уже установленным sentence-transformers,
+# pipeline.py можно адаптировать, заменив TfidfVectorizer на
+# SentenceTransformer('all-MiniLM-L6-v2').encode(...) + cosine_similarity.
